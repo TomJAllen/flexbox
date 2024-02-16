@@ -15,9 +15,6 @@
   "engines": {
     "node": "14.x"
   },
-  "scripts": {
-    "start": "node index.js"
-  },
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^4.5.0"
