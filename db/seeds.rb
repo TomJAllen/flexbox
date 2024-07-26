@@ -43,7 +43,7 @@ workout1 = Workout.new(
 )
 require "open-uri"
 file = URI.open("https://res.cloudinary.com/da1wivhkn/image/upload/v1638363750/warmup_jdkyao.jpg")
-workout1.photo.attach(io: file, filename: "wokrout1.jpg", content_type: "image/jpg")
+workout1.photo.attach(io: file, filename: "workout1.jpg", content_type: "image/jpg")
 puts "saving"
 workout1.save!
 puts "saved"
